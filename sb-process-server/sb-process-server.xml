@@ -1,0 +1,36 @@
+<kie-server-state>
+  <controllers/>
+  <configuration>
+    <configItems>
+      <config-item>
+        <name>org.kie.server.location</name>
+        <value>http://localhost:8090/rest/server</value>
+        <type>java.lang.String</type>
+      </config-item>
+      <config-item>
+        <name>org.kie.server.id</name>
+        <value>sb-process-server</value>
+        <type>java.lang.String</type>
+      </config-item>
+      <config-item>
+        <name>org.kie.server.controller</name>
+        <value></value>
+        <type>java.lang.String</type>
+      </config-item>
+    </configItems>
+  </configuration>
+  <containers>
+    <container>
+      <containerId>simple-kjar_1.0.0</containerId>
+      <releaseId>
+        <groupId>com.acme</groupId>
+        <artifactId>simple-kjar</artifactId>
+        <version>1.0.0</version>
+      </releaseId>
+      <status>STARTED</status>
+      <configItems/>
+      <messages/>
+      <containerAlias>simple-kjar</containerAlias>
+    </container>
+  </containers>
+</kie-server-state>
